@@ -91,7 +91,8 @@ nav a:hover {
     border: 5%;
 }
 .home-img{
-    width: auto;
+    width: 100%;
+    height: auto;
 }
 .link-challenge{
     background-color: var(--secundary-color);
@@ -189,4 +190,29 @@ footer{
     justify-content: center;
 }
 
-@media (max)
+@media (max-width: 720px){
+    nav{
+        flex-direction: column;
+        height: auto;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .home{
+        flex-direction: column;
+        height: auto;
+    }
+    .home-img{
+        display: none;
+    }
+    .about-me{
+        flex-direction: column;
+    }
+    .about-me-img{
+        display: none;
+    }
+}
