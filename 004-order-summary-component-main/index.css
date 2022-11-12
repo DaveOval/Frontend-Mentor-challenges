@@ -1,0 +1,103 @@
+:root{
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    --azul-feo: hsl(245, 46%, 52%);
+}
+
+*{
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+h1{
+    font-weight: 900;
+    color: var(--dark-blue);
+}
+h2{
+    font-weight: 800;
+    color: var(--dark-blue);
+    font-size: 1.3rem;
+}
+h3{
+    font-weight: 600;
+    color: var(--desaturated-blue);
+}
+a{
+    font-weight: 900;
+    
+}
+a:hover{
+    color: var(--azul-feo);
+    text-decoration: none;
+}
+button{
+    background-color: var(--bright-blue);
+    color: var(--very-pale-blue);
+    border: none;
+    height: 4rem;
+    width: 25rem;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: var(--azul-feo);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--pale-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-summary{
+    background-color: var(--very-pale-blue);
+    border-radius: 30px;
+    height: 45rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.img-hero{
+    background-image: url(./images/illustration-hero.svg);
+    height: 30%;
+    width: 100%;
+    margin-top: -90px;
+    margin-bottom: 10px;
+    border-radius: 30px 30px 0 0;
+
+}
+.description{
+    color: var(--desaturated-blue);
+    text-align: center;
+    width: 80%;
+    line-height: 2rem;
+}
+.plan{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--very-pale-blue);
+}
+.img-plan{
+    background-image: url(./images/icon-music.svg);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    
+}
+.cancel-order{
+    text-decoration: none;
+    color: var(--desaturated-blue);
+    font-size: 1.2rem;
+}
