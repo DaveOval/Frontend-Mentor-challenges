@@ -198,9 +198,13 @@ footer{
         align-items: center;
         justify-content: center;
         position: relative;
+        padding: 2rem 0;
     }
     .nav-list{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
     }
     .home{
         flex-direction: column;
@@ -208,6 +212,9 @@ footer{
     }
     .home-img{
         display: none;
+    }
+    .challenges-html-css-header{
+        text-align: center;
     }
     .about-me{
         flex-direction: column;
