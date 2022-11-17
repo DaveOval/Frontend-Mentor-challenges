@@ -2,35 +2,62 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-  Try it free
 
-  Build The Community Your Fans Will Love
+  <!--Nav-->
+  <nav class="nav">
+    <div class="nav__contend">
+      <div class="nav-logo">
+        <div class="nav-logo-img"></div>
+      </div>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does 
-  your audience. Create connections with your users as you engage in genuine discussion. 
+      <div class="nav-btn">
+        <button class="btn-nav">Try it free</button>
+      </div>
+  </div>
+  </nav>
+  
+  <!--Hero-->
+  <section class="hero">
+    <h1 class="hero-header">Build The Community Your Fans Will Love</h1>
 
-  Get Started For Free
+    <p class="hero-text">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+  <button class="btn-pink">Get Started For Free</button>
 
-  1.4k+
-  Communities Formed
+  <img class="hero-img " src="./images/screen-mockups.svg" alt="">
 
-  2.7m+
-  Messages Sent
+  <div class="hero-numbers">
+    <div class="hero-numbers-card">
+      <div class="hero-numbers-img"></div>
+      <h1 class="hero-numbers-number">1.4k+</h1>
+      <p class="hero-numbers-text">Communities Formed</p>
+    </div>
 
-  Grow Together
+    <div class="hero-numbers-card">
+      <div class="hero-numbers-img2"></div>
+      <h1 class="hero-numbers-number">2.7m+</h1>
+      <p class="hero-numbers-text">Messages<br>Sent</p>
+    </div>
+  </div>
+  </section>
+
+  <section class="grown">
+    <div class="top-img-grown"></div>
+    <div class="grown-background">
+      <div class="img-grown"></div>
+      <h2 class="grown-header">Grow Together</h2>
+      <p class="grown-text">Generate meaningful discussions with your audience and build a strong, loyal community.
+      Think of the insightful conversations you miss out on with a feedback form.</p>
+    </div>
+    <div class="bottom-img-grown"></div>
+  </section>
+ 
+  <!-- 
   Generate meaningful discussions with your audience and build a strong, loyal community. 
   Think of the insightful conversations you miss out on with a feedback form. 
 
@@ -62,6 +89,6 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
 </body>
 </html>
